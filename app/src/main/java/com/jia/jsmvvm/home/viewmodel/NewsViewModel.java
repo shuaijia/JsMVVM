@@ -39,7 +39,7 @@ public class NewsViewModel {
 
             @Override
             public void onFaile(String errorInfo) {
-                news=new NewslistBean("aaa","aaa","aaa","aaa","aaa");
+                news=new NewslistBean("error","error","error","error","error");
                 activityMainBinding.setNews(news);
             }
         });
